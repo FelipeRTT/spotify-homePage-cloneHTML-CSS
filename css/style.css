@@ -327,6 +327,15 @@ footer{
     margin-right: 100px;
 }
 
+.brasil{
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.brasil:hover{
+    cursor: pointer;
+}
+
 .github{
     text-decoration-style: none ;
     text-decoration: none;
