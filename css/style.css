@@ -57,7 +57,7 @@ img{
     height: 40px;
     border-radius: 50%;
     margin-left: 40px;
-    background-image: url(/images/chamber-icon.jpg);
+    background-image: url("https://i.pinimg.com/236x/f2/09/c2/f209c29f2f694af681392b1213efb6d2.jpg");
     background-size: cover;
 }
 
