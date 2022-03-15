@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@
 
 body{
     background-color: rgb(34, 34, 34);
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo{
@@ -57,6 +60,7 @@ img{
     text-decoration: none;
     list-style-type: none;
     margin-left: 10px;
+    font-weight: bold;
 }
 
 #borda-direita{
@@ -74,7 +78,7 @@ img{
 
 .rosa{
     width: 100vw;
-    height: 80vh;
+    height: 650px;
     background-color: #ffcdd2;
     display: flex;
     align-items: center;
@@ -114,4 +118,75 @@ img{
 .termos{
     margin-top: 25px;
     font-size: 10px;
+}
+
+/* section azul */
+.azul{
+    background-color: #2941ab;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.conteudo-azul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 20vw;
+}
+
+.azul-titulo{
+    color: #1ed760;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.azul-p{
+    color: #1ed760;
+    font-size: 1.2em;
+}
+
+.web-player{
+    width: 190px;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1ed760;
+    color: #2941ab;
+    font-weight: bold;
+}
+
+.web-player:hover{
+    background-color: #2de26d;
+    cursor: pointer;
+    font-size: 13px;
+    width: 200px;
+}
+
+/* .bola{
+    position: relative;
+    top: -80px;
+    right: -600px; 
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #1ed75f;
+
+}
+
+.bola2{
+    width: 200px;
+    height: 200px;
+    background-color: #d83519;
+    position: fixed;
+    left: -1000px;
+    align-self: flex-start;
+} */
+
+.mulher{
+    width: 600px;
 }
