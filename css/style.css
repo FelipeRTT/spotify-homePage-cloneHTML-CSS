@@ -9,13 +9,17 @@
 }
 
 body{
-    background-color: rgb(34, 34, 34);
+    background-color: black;
     font-family: 'Roboto', sans-serif;
 }
 
 .logo{
     display: flex;
     align-items: center;
+}
+
+.logo:hover{
+    cursor: pointer;
 }
 
 header{
@@ -189,4 +193,142 @@ img{
 
 .mulher{
     width: 600px;
+}
+
+
+
+/* footer */
+
+footer{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.logo-footer{
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer h1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.logo-footer:hover{
+    cursor: pointer;
+}
+
+#footer-ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 12px;
+}
+
+#footer-ul li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#footer-divs{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#footer-divs h4{
+    font-weight: bold;
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#sociais{
+    /* margin-top: 50%; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(34, 34, 34);
+}
+
+.instagram{
+    background-image: url(/images/insta-spot.png);
+    background-size: cover;
+    background-repeat: none;
+}
+
+.twitter{
+    background-image: url(/images/twiter-spot.png);
+    background-size: cover;
+}
+
+.facebook{
+    background-image: url(/images/facebook-spot.png);
+    background-size: cover;
+}
+
+.instagram:hover{
+    border: 1px solid #1ed75f;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    border: 1px solid #1ed75f;
+    cursor: pointer;
+}
+
+.facebook:hover{
+    border: 1px solid #1ed75f;
+    cursor: pointer;
+}
+
+
+/* infos */
+
+.cops{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infos{
+    display: flex; 
+    gap: 30px;
+    font-size: 11px;
+    color: white;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.infos p:hover{
+    color: #1ed75f;
+    cursor: pointer;
+}
+
+.cc{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 13px;
+    margin-right: 100px;
+}
+
+.github{
+    text-decoration-style: none ;
+    text-decoration: none;
+    color: #1ed760;
+    /* font-weight: bold; */
+}
+
+.github:hover{
+    text-decoration: underline;
+}
+
+.nome{
+    color: #1ed75f;
 }
