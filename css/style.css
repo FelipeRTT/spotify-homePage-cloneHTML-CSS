@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* color: red; */
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+.spotify{
+    /* margin-left: 0px; */
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+img{
+    width: 50px;
+    float: left;
+}
+
+.perfil{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 40px;
+    background-image: url(/images/chamber-icon.jpg);
+    background-size: cover;
+}
+
+.menu-itens{
+    margin-left: 15px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#borda-direita{
+    border-right: 1px solid white;
+    width: 80px;
+}
