@@ -92,6 +92,7 @@
 }
 
 .lista-basico{
+    padding-top: 10px;
     border-top: 1px solid black;
     margin-top: 20px;
     display: flex;
