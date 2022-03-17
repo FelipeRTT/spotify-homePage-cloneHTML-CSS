@@ -30,6 +30,44 @@
     font-weight: bold;
 }
 
+
+/* escolha */
+
+.escolha{
+    padding-top: 50px;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.ol{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+}
+
+.outros11{
+    color: black;
+    text-decoration: underline;
+}
+
+.outros11:hover{
+    cursor: pointer;
+}
+
+.h2escolha{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.h2escolha, .pescolha{
+    color: black;
+}
+
 .botao-planos{
     width: 150px;
     background-color: black;
@@ -74,7 +112,7 @@
     padding: 10px;
     margin-left: 20px;
     border-radius: 20px;
-
+    box-shadow: 3px 3px 3px  rgba(34, 34, 34, .2); 
 }
 
 #planos-id h2, #planos-id p,#planos-id ul,#planos-id li{
@@ -175,6 +213,7 @@
     padding:  30px 50px;
     align-items: center;
     border-radius: 20px;
+    box-shadow: 3px 3px 3px  rgba(34, 34, 34, .2); 
 }
 
 .descontos h2, .descontos h3{

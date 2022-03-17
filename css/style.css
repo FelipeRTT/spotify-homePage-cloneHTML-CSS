@@ -67,6 +67,7 @@ img{
 }
 
 .menu-itens{
+    color: white;
     padding-left: 15px;
     padding-right: 10px;
     text-decoration: none;
@@ -74,6 +75,8 @@ img{
     margin-left: 10px;
     font-weight: bold;
 }
+
+
 
 #borda-direita{
     border-right: 1px solid white;
