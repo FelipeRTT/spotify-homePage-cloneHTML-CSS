@@ -1,0 +1,201 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+
+.azul-premium{
+    width: 100%;
+    min-height: 350px;
+    background-color: #2941ab;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-premium{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 200px;
+}
+
+.conteudo-premium h1{
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.conteudo-premium p{
+    color: white;
+    font-weight: bold;
+}
+
+.botao-planos{
+    width: 150px;
+    background-color: black;
+    border: none;
+    padding: 13px 0px;
+    border-radius: 20px;
+}
+
+.botao-planos:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.termos{
+    margin-top: 0px;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.termos:hover{
+    cursor: pointer;
+}
+
+/* itens planos */
+
+.planos{
+    height: 800px;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#planos-id{
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    max-width: 240px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+
+#planos-id h2, #planos-id p,#planos-id ul,#planos-id li{
+    color: black;
+}
+
+.pagamento-unico{
+    color: #2e7cd3;
+    border: 1px solid #2e7cd3;
+    text-align: center;
+    padding: 3px 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.lista-basico{
+    border-top: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.basic-price{
+    margin-top: 10px;
+}
+
+.começar{   
+    margin-top: 10px;
+
+    align-self: center;
+    width: 180px;
+    background-color: black;
+    padding: 15px 0;
+    border: none;
+    border-radius: 20px;
+}
+
+/* alinhando o botao e o termo ao final do elemento pai, 1 a 1 */
+
+.começar-basico{
+    position: relative;
+    bottom: -308px;
+}
+
+.termos-basico{
+    position: relative;
+    bottom: -308px;
+}
+
+.começar-individual{
+    position: relative;
+    bottom: -238px;
+}
+
+.termos-individual{
+    position: relative;
+    bottom: -238px;
+}
+
+.começar-duo{
+    position: relative;
+    bottom: -113px;
+}
+
+.termos-duo{
+    position: relative;
+    bottom: -113px;
+}
+
+
+.começar:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#temos-planos{
+    margin-top: 10px;
+    align-self: center;
+
+}
+
+.conteudo-estudante{
+    padding: 50px;
+    display: flex;
+    background-color: #efefef;
+    justify-content: center;
+}
+
+.descontos{
+    width: 600px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding:  30px 50px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.descontos h2, .descontos h3{
+    color: black;
+    max-width: 400px;
+}
+
+.saiba-mais{
+    padding: 20px 40px;
+}
+
+.saiba-mais:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
