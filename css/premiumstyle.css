@@ -112,7 +112,7 @@
     padding: 10px;
     margin-left: 20px;
     border-radius: 20px;
-    box-shadow: 3px 3px 3px  rgba(34, 34, 34, .2); 
+    box-shadow: 3px 3px 3px  rgba(34, 34, 34, 1); 
 }
 
 #planos-id h2, #planos-id p,#planos-id ul,#planos-id li{
